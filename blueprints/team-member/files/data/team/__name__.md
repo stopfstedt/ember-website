@@ -8,7 +8,7 @@ image:
 added: <%= date %>
 teams:
 # pick from the following - you can just remove the # and delete the other lines
-#  - corejs
+#  - framework
 #  - steering
 #  - alumni
 #  - cli
