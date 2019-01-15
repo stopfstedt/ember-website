@@ -14,8 +14,8 @@ export default Controller.extend({
   sortedModel: sort('model', 'sortingKeys'),
 
   alumniTeamMembers: inTeam('alumni'),
-  coreCLITeamMembers: inTeam('cli'),
-  coreTeamMembers: inTeam('corejs'),
+  cliTeamMembers: inTeam('cli'),
+  frameworkTeamMembers: inTeam('framework'),
   dataTeamMembers: inTeam('data'),
   learningTeamMembers: inTeam('learning'),
   steeringCommitteeMembers: inTeam('steering'),
